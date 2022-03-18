@@ -4,11 +4,10 @@
 
 #include "iostream"
 
-using namespace std;
 
 int main(){
-    string user;
-    cout << "enter name" << endl;
-    cin >> user;
-    cout << "Hello World from @"<<user << endl;
+    std::string user;
+    std::cout << "enter name" << std::endl;
+    std::cin >> user;
+    std::cout << "Hello World from @"<<user << std::endl;
 }
