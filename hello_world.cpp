@@ -7,5 +7,8 @@
 using namespace std;
 
 int main(){
-    cout << "Hello World";
+    string user;
+    cout << "enter name" << endl;
+    cin >> user;
+    cout << "Hello World from @"<<user << endl;
 }
